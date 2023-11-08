@@ -16,5 +16,12 @@ public class ConcatenatingStrings {
         System.out.print("The first one added to the second: " + firstAddedToSecond);
         System.out.println();
         System.out.print("The second one added to the first: " + secondAddedToFirst);
+        System.out.println();
+        if (!firstAddedToSecond.equals(secondAddedToFirst)) {
+            System.out.println("The composition of two different Strings is alternating.");
+        }
+        else {
+            System.out.println("The composition of two different Strings is not alternating.");
+        }
     }
 }
